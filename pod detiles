@@ -1,0 +1,90 @@
+user  -2001
+user:
+password
+databasename: pickup_user
+
+location -2002
+user:
+password
+databasename: pickup_location
+
+pricing  --2003
+user:
+password
+databasename: pickup_pricing
+
+trcking --2004
+user:
+password
+databasename: pickup_tracking 
+
+order  --2005
+user:
+password
+databasename: pickup_order 
+
+payment  -2006
+user:
+password
+databasename: pickup_payment
+
+rating  --2007
+user:
+password
+databasename: pickup_reviewrating
+
+anytics -2008
+user:
+password
+databasename:
+
+notification --2009
+user:
+password
+databasename: pickup_notification
+
+ 
+
+mysql -h pod-live.cc1gjuj7ab1h.ca-central-1.rds.amazonaws.com -P 3306 -u root -p
+
+mysql -h pod-live.cc1gjuj7ab1h.ca-central-1.rds.amazonaws.com -P 3306 -u pod_admin -p
+
+DB_HOST=pod-live.cc1gjuj7ab1h.ca-central-1.rds.amazonaws.com
+DB_USERNAME=root
+DB_PASSWORD=Z%zxgL5J=P
+
+uname: pod_admin
+pwd: Bf_.z3B,
+
+repo
+
+pod_analytics : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_analytics
+
+pod_location : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_location
+
+pod_notification : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_notification
+
+pod_order : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_order
+
+pod_payment : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_payment
+
+pod_pricing : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_pricing
+
+pod_ratings : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_ratings
+
+pod_tracking : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_tracking
+
+pod_user : 736080605287.dkr.ecr.ca-central-1.amazonaws.com/pod_user
+
+
+
+git URL
+User Service - https://solbaacken.git.beanstalkapp.com/node_pickup.git
+Order Service - https://solbaacken.git.beanstalkapp.com/node_pickup_order.git
+Notifiction Service - https://solbaacken.git.beanstalkapp.com/node_pickup-notification.git
+Payment Service - https://solbaacken.git.beanstalkapp.com/node_pickup-payment.git
+Anlytics Service - https://solbaacken.git.beanstalkapp.com/node_pickup_analytics.git
+Location Service - https://solbaacken.git.beanstalkapp.com/node_pickup_location.git
+Pricing Service - https://solbaacken.git.beanstalkapp.com/node_pickup_pricing.git
+Ratings Service - https://solbaacken.git.beanstalkapp.com/node_pickup_reviewrating.git
+Tracking Service - https://solbaacken.git.beanstalkapp.com/node_pickup_tracking.git
